@@ -17,7 +17,7 @@ Feature: Logged User could search for any product
 
     #Search Feature
 
-    When user enter product" name
+    When user enter product's name
 
     And user click on search button
 
