@@ -3,7 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class select_Dif_tagsSD {
+public class SC8_select_Dif_tagsSD {
     @When("user click on tag")
     public void user_click_on_tag () {
 

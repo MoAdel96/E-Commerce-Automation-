@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class filterSD {
+public class SC5_switchSD {
     @Given("User open Browser")
     public void user_open_Browser (){
 
@@ -37,29 +37,18 @@ public class filterSD {
 
     }
 
-    @When("user hover on category")
-    public void user_hover_on_category () {
+    @When("user clicks on currencies Dropdown")
+    public void user_clicks_on_currencies_Dropdown () {
 
     }
 
-    @And("user click on sub-category")
-    public void user_click_on_sub_category () {
+    @And("user click on currency")
+    public void user_click_on_currency () {
 
     }
 
-    @Then("category page will open")
-    public void category_page_will_open () {
-
-    }
-
-
-    @When("user click on color")
-    public void user_click_on_color () {
-
-    }
-
-    @Then("the products with same color will appear")
-    public void the_products_with_same_color_will_appear () {
+    @Then("the currency will change")
+    public void the_currency_will_change () {
 
     }
 

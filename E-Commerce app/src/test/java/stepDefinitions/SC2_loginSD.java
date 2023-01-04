@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class searchSD {
+public class SC2_loginSD {
 
     @Given("User open Browser")
     public void user_open_Browser (){
@@ -34,25 +34,9 @@ public class searchSD {
     }
 
     @Then("user login successfully")
-    public void user_login_successfully() {
+    public void user_login_successfully () {
 
     }
-    @When("user enter product's name")
-    public void user_enter_product_name () {
-
-    }
-
-    @And("user click on search button")
-    public void user_click_on_search_button () {
-
-    }
-
-    @Then("the result page will open")
-    public void the_result_page_will_open () {
-
-    }
-
-
 
 
 }

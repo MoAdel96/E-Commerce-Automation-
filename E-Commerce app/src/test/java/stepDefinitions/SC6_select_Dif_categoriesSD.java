@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class select_Dif_categoriesSD {
+public class SC6_select_Dif_categoriesSD {
     @Given("User open Browser")
     public void user_open_Browser (){
 

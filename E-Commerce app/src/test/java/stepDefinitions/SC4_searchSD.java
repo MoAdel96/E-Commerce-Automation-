@@ -5,7 +5,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class switchSD {
+public class SC4_searchSD {
+
     @Given("User open Browser")
     public void user_open_Browser (){
 
@@ -33,23 +34,25 @@ public class switchSD {
     }
 
     @Then("user login successfully")
-    public void user_login_successfully () {
+    public void user_login_successfully() {
+
+    }
+    @When("user enter product's name")
+    public void user_enter_product_name () {
 
     }
 
-    @When("user clicks on currencies Dropdown")
-    public void user_clicks_on_currencies_Dropdown () {
+    @And("user click on search button")
+    public void user_click_on_search_button () {
 
     }
 
-    @And("user click on currency")
-    public void user_click_on_currency () {
+    @Then("the result page will open")
+    public void the_result_page_will_open () {
 
     }
 
-    @Then("the currency will change")
-    public void the_currency_will_change () {
 
-    }
+
 
 }

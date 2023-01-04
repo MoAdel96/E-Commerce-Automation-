@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class registerSD {
+public class SC1_registerSD {
     @Given("User open Browser")
     public void user_open_Browser (){
 
