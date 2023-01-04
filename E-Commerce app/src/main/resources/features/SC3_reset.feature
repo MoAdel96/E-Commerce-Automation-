@@ -2,7 +2,15 @@ Feature: Reset Password
 
   Scenario: user could reset his/her password successfully
 
-    Given user navigate to login page
+    #login
+
+    Given User open Browser
+
+    And User navigates to website
+
+    And user navigate to login page
+
+    #Reset Feature
 
     And user click on forget password link
 
