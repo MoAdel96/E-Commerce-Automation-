@@ -27,4 +27,4 @@ Feature: Logged user could add different products to compare list
 
     When user click on add to compare list
 
-    Then massage will appear" The product has been added to your product comparison "
+    Then The product successfully added to your product comparison

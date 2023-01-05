@@ -31,4 +31,4 @@ Feature: Logged user could add different products to Shopping cart
 
     And user click on add to cart
 
-    Then massage will appear" The product has been added to your shopping cart "
+    Then The product successfully added to your shopping cart

@@ -29,7 +29,7 @@ Feature: Logged user could add different products to Wishlist
 
     And user select size
 
-    And user click on add to Wishlist
+    And user click on Add to Wishlist
 
-    Then massage will appear"The product has been added to your wishlist"
+    Then The product successfully added to your wishlist
 

@@ -31,7 +31,7 @@ Feature: Create successful Order
 
     And user click on add to cart
 
-    Then massage will appear" The product has been added to your shopping cart "
+    Then The product successfully added to your shopping cart
 
     # shopping cart
 
@@ -47,28 +47,28 @@ Feature: Create successful Order
 
     When user fill the form
 
-    And  user press continue
+    And  user press continue1
 
     #Shipping method
 
     When user choose Shipping method
 
-    And press continue
+    And press continue2
 
     #Payment method
 
     When user choose Payment method
 
-    And press continue
+    And press continue3
 
      #Payment information
 
-     When user press continue
+     When user press continue4
 
       #Confirm order
 
     When user press confirm
 
-    Then A massage will appear ( Your order has been successfully processed!)
+    Then Your order has been successfully processed
 
 
