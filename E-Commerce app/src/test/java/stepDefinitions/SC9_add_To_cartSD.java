@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SC9_add_To_cart {
+public class SC9_add_To_cartSD {
 
     @When("user click on add to cart")
     public void user_click_on_add_to_cart1(){

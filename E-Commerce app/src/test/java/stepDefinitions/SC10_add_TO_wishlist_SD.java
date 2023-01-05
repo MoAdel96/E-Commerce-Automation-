@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SC10_add_TO_wishlist {
+public class SC10_add_TO_wishlist_SD {
 
     @When("user click on add to Wishlist")
     public void user_click_on_add_to_Wishlist() {

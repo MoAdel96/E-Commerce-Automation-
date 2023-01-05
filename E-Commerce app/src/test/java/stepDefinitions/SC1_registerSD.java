@@ -4,17 +4,27 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class SC1_registerSD {
     @Given("User open Browser")
     public void user_open_Browser (){
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver= new ChromeDriver();
+        driver.manage().window().maximize();
+
+
+
 
 
 
     }
   @And("User navigates to website")
     public void User_navigates_to_website () {
+
 
   }
   @And("user navigate to register page")

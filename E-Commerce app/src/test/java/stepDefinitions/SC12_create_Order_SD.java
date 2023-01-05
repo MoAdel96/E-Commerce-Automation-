@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SC12_create_Order {
+public class SC12_create_Order_SD {
 
     // shopping cart
 
