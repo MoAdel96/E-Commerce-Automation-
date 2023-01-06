@@ -7,19 +7,19 @@ import io.cucumber.java.en.When;
 
 public class SC2_loginSD {
 
-    @Given("User open Browser")
-    public void user_open_Browser (){
-
-    }
-    @And("User navigates to website")
-    public void User_navigates_to_website () {
-
-    }
-
-    @And("user navigate to login page")
-    public void user_navigate_to_login_page () {
-
-    }
+//    @Given("User open Browser")
+//    public void user_open_Browser (){
+//
+//    }
+//    @And("User navigates to website")
+//    public void User_navigates_to_website () {
+//
+//    }
+//
+//    @And("user navigate to login page")
+//    public void user_navigate_to_login_page () {
+//
+//    }
 
 
 

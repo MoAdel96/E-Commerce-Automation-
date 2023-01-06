@@ -1,44 +1,60 @@
 package stepDefinitions;
 
+import Pages.SC1_registerPage;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+
 
 public class SC1_registerSD {
-    @Given("User open Browser")
-    public void user_open_Browser (){
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver= new ChromeDriver();
-        driver.manage().window().maximize();
 
+SC1_registerPage register =new SC1_registerPage();
 
-
-
-
-
-    }
+//    @Given("User open Browser")
+//    public static void user_open_Browser (){
+//
+//
+//            WebDriverManager.chromedriver() .setup();
+//            driver = new ChromeDriver();
+//            driver.manage().window().maximize();
+//
+//
+//
+//    }
   @And("User navigates to website")
     public void User_navigates_to_website () {
+
+browser.driver.navigate().to("https://demo.nopcommerce.com/");
 
 
   }
   @And("user navigate to register page")
     public void user_navigate_to_register_page(){
 
+browser.driver.findElement(By.className("ico-register")).click();
   }
 @When("User fill the form")
     public void User_fill_the_form(){
+    register.gender_male().click();
+    register.first_name().sendKeys("mohamed");
+    register.last_name().sendKeys("adel");
+    register.Email().sendKeys("moadel@gmail.com");
+    register.pass_word().sendKeys("123456");
+    register.confirm_pass_word().sendKeys("123456");
 
 }
 
 
     @And("User Click on Register button")
     public void User_Click_on_Register_button(){
+        register.RegisterBtn().click();
 
     }
 
@@ -46,12 +62,14 @@ public class SC1_registerSD {
     @Then("User could register successfully")
 
     public void User_could_register_successfully(){
-
+        String successMSG = browser.driver.findElement(By.cssSelector("div[class=\"result\"]")).getText();
+        System.out.println(successMSG);
     }
 
 
     @And("go to the main page")
 
     public void go_to_the_main_page(){
+        browser.driver.findElement(By.cssSelector("img[alt=\"nopCommerce demo store\"]")).click();
     }
 }
