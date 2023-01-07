@@ -30,7 +30,7 @@ browser.driver.navigate().to("https://demo.nopcommerce.com/");
     public void user_navigate_to_register_page(){
 
 browser.driver.findElement(By.className("ico-register")).click();
-      throw new io.cucumber.java.PendingException();
+
   }
 @When("User fill the form")
     public void User_fill_the_form(){
@@ -40,7 +40,7 @@ browser.driver.findElement(By.className("ico-register")).click();
     register.Email().sendKeys("moadel@gmail.com");
     register.pass_word().sendKeys("123456");
     register.confirm_pass_word().sendKeys("123456");
-    throw new io.cucumber.java.PendingException();
+
 
 }
 
@@ -48,7 +48,7 @@ browser.driver.findElement(By.className("ico-register")).click();
     @And("User Click on Register button")
     public void User_Click_on_Register_button(){
         register.RegisterBtn().click();
-        throw new io.cucumber.java.PendingException();
+
 
     }
 

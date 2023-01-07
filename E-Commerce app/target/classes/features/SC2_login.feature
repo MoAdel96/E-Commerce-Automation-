@@ -2,13 +2,15 @@ Feature: User could log in with valid email and password
 
   Scenario:
 
-    Given User open Browser
+
 
     And User navigates to website
 
     And user navigate to login page
 
-    When user enter valid email and password
+    When user enter valid email
+
+    And user enter valid password
 
     And user click on login button
 
