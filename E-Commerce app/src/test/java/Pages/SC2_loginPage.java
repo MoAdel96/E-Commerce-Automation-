@@ -25,7 +25,7 @@ public WebElement emailLogin (){
     }
 
     public WebElement loginBTN (){
-    By loginBTN1 =By.className("button-1 login-button");
+    By loginBTN1 =By.cssSelector("button[class=\"button-1 login-button\"]");
     WebElement loginBTN = browser.driver.findElement(loginBTN1);
     return loginBTN;
     }

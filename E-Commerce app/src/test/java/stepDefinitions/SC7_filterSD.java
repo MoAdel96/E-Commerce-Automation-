@@ -8,20 +8,7 @@ import io.cucumber.java.en.When;
 public class SC7_filterSD {
 
 
-    @When("user hover on category")
-    public void user_hover_on_category () {
 
-    }
-
-    @And("user click on sub-category")
-    public void user_click_on_sub_category () {
-
-    }
-
-    @Then("category page will open")
-    public void category_page_will_open () {
-
-    }
 
 
     @When("user click on color")

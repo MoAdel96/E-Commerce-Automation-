@@ -3,7 +3,7 @@ Feature: Logged user could filter with color
   Scenario: Logged user could filter with color
 
     #login
-    Given User open Browser
+
 
     And User navigates to website
 

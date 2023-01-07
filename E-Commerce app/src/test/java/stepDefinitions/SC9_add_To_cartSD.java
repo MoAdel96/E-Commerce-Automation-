@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 
 public class SC9_add_To_cartSD {
 
-    @When("user click on add to cart")
+    @When("user click on add to cart1")
     public void user_click_on_add_to_cart1(){
 
     }
@@ -16,7 +16,7 @@ public class SC9_add_To_cartSD {
 
     }
 
-    @And("user click on add to cart")
+    @And("user click on add to cart2")
     public void user_click_on_add_to_cart2(){
 
     }
