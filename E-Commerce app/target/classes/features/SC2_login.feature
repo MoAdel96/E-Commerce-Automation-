@@ -15,3 +15,5 @@ Feature: User could log in with valid email and password
     And user click on login button
 
     Then user login successfully
+
+    And go to the main page
