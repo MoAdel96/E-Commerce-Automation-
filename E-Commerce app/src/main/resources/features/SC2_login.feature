@@ -4,7 +4,7 @@ Feature: User could log in with valid email and password
 
 
 
-    And User navigates to website
+    Given User open browser and navigates to website
 
     And user navigate to login page
 

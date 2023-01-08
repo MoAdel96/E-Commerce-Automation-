@@ -4,6 +4,7 @@ import Pages.SC1_registerPage;
 
 import io.cucumber.java.en.And;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -17,7 +18,7 @@ public class SC1_registerSD {
     SC1_registerPage register = new SC1_registerPage();
 
 
-    @And("User navigates to website")
+    @Given("User open browser and navigates to website")
     public void User_navigates_to_website() {
 
         browser.driver.navigate().to("https://demo.nopcommerce.com/");
