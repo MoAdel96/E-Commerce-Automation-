@@ -4,9 +4,9 @@ Feature: Reset Password
 
     #login
 
-    Given User open Browser
 
-    And User navigates to website
+
+    Given User open browser and navigates to website
 
     And user navigate to login page
 
