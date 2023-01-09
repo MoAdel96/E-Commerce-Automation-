@@ -3,21 +3,23 @@ Feature: Logged user could add different products to Wishlist
   Scenario:Logged user could add different products to Wishlist
 
  #login
-    Given User open Browser
-
-    And User navigates to website
+    Given User open browser and navigates to website
 
     And user navigate to login page
 
-    When user enter valid email and password
+    When user enter valid email
+
+    And user enter valid password
 
     And user click on login button
 
     Then user login successfully
 
-     #select different Categories
+    And go to the main page
 
-    When user hover on category
+    #select different Categories
+
+    When user click on category
 
     And user click on sub-category
 
