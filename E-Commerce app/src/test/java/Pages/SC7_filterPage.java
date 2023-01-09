@@ -1,10 +1,18 @@
 package Pages;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import stepDefinitions.browser;
 public class SC7_filterPage {
+
+
+    public WebElement Color(){
+         By color = By.id("attribute-option-14");
+        return browser.driver.findElement(color);
+
+    }
 
 
 

@@ -5,19 +5,23 @@ Feature: Logged user could filter with color
     #login
 
 
-    And User navigates to website
+    Given User open browser and navigates to website
 
     And user navigate to login page
 
-    When user enter valid email and password
+    When user enter valid email
+
+    And user enter valid password
 
     And user click on login button
 
     Then user login successfully
 
+    And go to the main page
+
      #select different Categories
 
-    When user hover on category
+    When user click on category
 
     And user click on sub-category
 
