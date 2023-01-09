@@ -4,8 +4,8 @@ import Pages.SC9_add_To_cart_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import junit.framework.Assert;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class SC9_add_To_cartSD {
 
@@ -34,9 +34,12 @@ public class SC9_add_To_cartSD {
 
     @Then("The product successfully added to your shopping cart")
     public void the_product_successfully_added_to_card(){
-        String expected = "The product has been added to your shopping cart";
-        boolean actual =browser.driver.findElement(By.xpath("//*[text()='The product has been added to your shopping cart']")).isDisplayed();
-        Assert.assertTrue(actual);
+//        String expected = "The product has been added to your shopping cart";
+//        boolean actual =browser.driver.findElement(By.xpath("//*[text()='The product has been added to your shopping cart']")).isDisplayed();
+//        Assert.assertTrue(actual);
+        String ExpectedResult = "The product has been added to your shopping cart";
+        String ActualResult = browser.driver.findElement(By.cssSelector("div[class=\"bar-notification success\"]")).getText();
+        Assert.assertTrue(ActualResult.contains(ExpectedResult));
     }
 
 }
