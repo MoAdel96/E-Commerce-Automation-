@@ -3,7 +3,6 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import stepDefinitions.browser;
 public class SC7_filterPage {
 

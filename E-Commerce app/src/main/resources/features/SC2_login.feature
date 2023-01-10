@@ -1,5 +1,5 @@
 Feature: User could log in with valid email and password
-
+@Register
   Scenario:
 
     Given User open browser and navigates to website

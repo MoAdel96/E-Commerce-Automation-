@@ -8,15 +8,13 @@ public class SC5_switchPage {
 
     public WebElement Dropdown (){
         By dropdown =By.id("customerCurrency");
-        WebElement Dropdown = browser.driver.findElement(dropdown);
-        return Dropdown;
+        return browser.driver.findElement(dropdown);
 
     }
 
     public WebElement Currency (){
         By currency =By.cssSelector("option[value=\"https://demo.nopcommerce.com/changecurrency/6?returnUrl=%2F\"]");
-        WebElement Currency = browser.driver.findElement(currency);
-        return Currency;
+        return browser.driver.findElement(currency);
 
     }
 }

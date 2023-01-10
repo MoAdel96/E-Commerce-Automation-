@@ -2,14 +2,13 @@ package stepDefinitions;
 
 import Pages.SC5_switchPage;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
 public class SC5_switchSD {
-SC5_switchPage switchCurr =new SC5_switchPage();
+    SC5_switchPage switchCurr = new SC5_switchPage();
 
     @When("user clicks on currencies Dropdown")
     public void user_clicks_on_currencies_Dropdown() {

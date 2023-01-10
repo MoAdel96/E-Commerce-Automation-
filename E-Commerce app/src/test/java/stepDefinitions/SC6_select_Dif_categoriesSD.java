@@ -29,7 +29,7 @@ public class SC6_select_Dif_categoriesSD {
     public void category_page_will_open() {
         String expected = browser.driver.findElement(By.className("page-title")).getText();
         String actual = "Shoes";
-        Assert.assertTrue(expected.contains(actual),"done");
+        Assert.assertTrue(expected.contains(actual), "done");
 
     }
 }

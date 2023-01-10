@@ -7,15 +7,13 @@ import stepDefinitions.browser;
 public class SC6_select_Dif_categoriesPage {
     public WebElement Category (){
         By category =By.cssSelector("a[href=\"/apparel\"]");
-        WebElement Category = browser.driver.findElement(category);
-        return Category;
+        return browser.driver.findElement(category);
 
 
     }
     public WebElement SubCategory (){
         By subcategory =By.xpath("//a[@title=\"Show products in category Shoes\"]");
-        WebElement SubCategory = browser.driver.findElement(subcategory);
-        return SubCategory;
+        return browser.driver.findElement(subcategory);
 
 
     }
