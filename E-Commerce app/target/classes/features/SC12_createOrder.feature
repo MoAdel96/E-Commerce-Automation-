@@ -3,21 +3,23 @@ Feature: Create successful Order
   Scenario: Create successful Order
 
      #login
-    Given User open Browser
-
-    And User navigates to website
+    Given User open browser and navigates to website
 
     And user navigate to login page
 
-    When user enter valid email and password
+    When user enter valid email
+
+    And user enter valid password
 
     And user click on login button
 
     Then user login successfully
 
-     #select different Categories
+    And go to the main page
 
-    When user hover on category
+    #select different Categories
+
+    When user click on category
 
     And user click on sub-category
 
@@ -25,11 +27,11 @@ Feature: Create successful Order
 
     #add to cart
 
-    When user click on add to cart
+    When user click on add to cart1
 
     And user select size
 
-    And user click on add to cart
+    And user click on add to cart2
 
     Then The product successfully added to your shopping cart
 
@@ -41,7 +43,6 @@ Feature: Create successful Order
 
     And press check out
 
-    Then Billing address form will open
 
     #Billing address
 
@@ -57,17 +58,11 @@ Feature: Create successful Order
 
     #Payment method
 
-    When user choose Payment method
-
-    And press continue3
+    When user choose Payment method and continue
 
      #Payment information
 
-     When user press continue4
-
-      #Confirm order
-
-    When user press confirm
+     When user press confirm
 
     Then Your order has been successfully processed
 

@@ -22,7 +22,7 @@ public class SC2_loginSD {
     @When("user enter valid email")
     public void user_enter_valid_email() {
 
-        log.emailLogin().sendKeys("ljoadel@gmail.com");
+        log.emailLogin().sendKeys("hhmoadel96@gmail.com");
     }
 
     @And("user enter valid password")

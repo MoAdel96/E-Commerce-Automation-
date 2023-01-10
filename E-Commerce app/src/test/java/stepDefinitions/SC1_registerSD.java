@@ -34,11 +34,13 @@ public class SC1_registerSD {
     }
 
     @When("User fill the form")
-    public void User_fill_the_form() {
+    public void User_fill_the_form() throws InterruptedException {
         register.gender_male().click();
         register.first_name().sendKeys("mohamed");
         register.last_name().sendKeys("adel");
-        register.Email().sendKeys("ljoadel@gmail.com");
+        register.Email().clear();
+        Thread.sleep(2000);
+        register.Email().sendKeys("hhmoadel96@gmail.com");
         register.pass_word().sendKeys("123456");
         register.confirm_pass_word().sendKeys("123456");
 
@@ -56,7 +58,6 @@ public class SC1_registerSD {
 
 
     @Then("User could register successfully")
-
     public void User_could_register_successfully() {
         String expectedResult = browser.driver.findElement(By.cssSelector("div[class=\"result\"]")).getText();
 
