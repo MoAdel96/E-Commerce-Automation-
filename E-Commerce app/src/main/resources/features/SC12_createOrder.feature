@@ -1,5 +1,6 @@
 Feature: Create successful Order
 
+  @smoke
   Scenario: Create successful Order
 
      #login
