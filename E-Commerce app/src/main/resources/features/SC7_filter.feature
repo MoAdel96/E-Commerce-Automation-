@@ -1,5 +1,6 @@
 Feature: Logged user could filter with color
 
+  @filter
   Scenario: Logged user could filter with color
 
     #login

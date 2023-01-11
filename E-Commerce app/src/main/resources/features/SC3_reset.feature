@@ -1,5 +1,5 @@
 Feature: Reset Password
-
+  @Authentication
   Scenario: user could reset his/her password successfully
 
     #login

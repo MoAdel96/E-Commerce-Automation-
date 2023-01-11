@@ -1,5 +1,5 @@
 Feature: User could register
-@Register
+@Authentication
   #Test Scenario 1
   Scenario: User could register with valid data
 

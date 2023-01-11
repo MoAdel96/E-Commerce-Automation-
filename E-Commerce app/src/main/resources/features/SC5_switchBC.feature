@@ -1,5 +1,5 @@
 Feature: Logged User could switch between currencies
-
+@switch
   Scenario: Logged User could switch between currencies US-Euro
 
     #login

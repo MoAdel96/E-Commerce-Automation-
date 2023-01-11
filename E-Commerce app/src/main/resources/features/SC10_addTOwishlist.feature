@@ -1,5 +1,6 @@
 Feature: Logged user could add different products to Wishlist
 
+  @wishlist
   Scenario:Logged user could add different products to Wishlist
 
  #login

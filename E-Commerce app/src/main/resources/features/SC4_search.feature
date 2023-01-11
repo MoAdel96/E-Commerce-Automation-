@@ -1,5 +1,5 @@
 Feature: Logged User could search for any product
-
+  @Search
   Scenario: Logged User could search for any product
 
     #log in

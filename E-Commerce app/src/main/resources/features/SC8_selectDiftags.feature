@@ -1,5 +1,5 @@
 Feature: Logged user could select different tags
-
+@tags
   Scenario: Logged user could select different tags
 
      #login

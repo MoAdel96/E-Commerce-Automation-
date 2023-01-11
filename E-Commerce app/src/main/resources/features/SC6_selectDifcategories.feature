@@ -1,5 +1,11 @@
 Feature: Logged user could select different Categories
 
+  @category
+  @cart
+  @filter
+  @tags
+  @wishlist
+  @compare
   Scenario: Logged user could select different Categories
 
     #login

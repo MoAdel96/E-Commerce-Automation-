@@ -1,5 +1,5 @@
 Feature: Logged user could add different products to Shopping cart
-
+@cart
   Scenario: Logged user could add different products to Shopping cart
 
     #login

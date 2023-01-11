@@ -1,5 +1,5 @@
 Feature: Logged user could add different products to compare list
-
+@compare
   Scenario: Logged user could add different products to compare list
 
     #login
